@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+
+    "name": "12306 Order Filter",
+    "description": "Change order style which were refunded",
+    "version": "1.0.0",
+
+    "content_scripts": [
+        {
+            "js": [ "jquery-1.12.0.min.js", "hide.js" ],
+            "matches": [ "*://kyfw.12306.cn/otn/queryOrder/init*" ]
+        }
+    ],
+
+    "permissions": [
+        "activeTab",
+        "http://*/*",
+        "https://*/*"
+    ]
+
+}
