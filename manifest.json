@@ -2,8 +2,8 @@
     "manifest_version": 2,
 
     "name": "12306 Order Filter",
-    "description": "Change order style which were refunded",
-    "version": "1.0.0",
+    "description": "Help display orders and query easily",
+    "version": "1.0.1",
 
     "content_scripts": [
         {
