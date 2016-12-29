@@ -3,7 +3,7 @@
 
     "name": "12306 Order Filter",
     "description": "Help display orders and query easily",
-    "version": "1.0.1",
+    "version": "1.0.2",
 
     "content_scripts": [
         {
